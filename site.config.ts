@@ -8,12 +8,12 @@ export default siteConfig({
   rootNotionSpaceId: 'thys',
 
   // basic site info (required)
-  name: '关于',
+  name: '吕楪.',
   domain: 'about.irithys.com',
-  author: 'irithys',
+  author: '吕楪',
 
   // open graph metadata (optional)
-  description: '吕楪的关于页面',
+  description: '吕楪的个人网站',
 
   // social usernames (optional)
   twitter: 'irithys',
@@ -29,13 +29,16 @@ export default siteConfig({
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
+  // 是否启用对 LQIP 预览图像的支持（可选）
   isPreviewImageSupportEnabled: true,
 
   // whether or not redis is enabled for caching generated preview images (optional)
   // NOTE: if you enable redis, you need to set the `REDIS_HOST` and `REDIS_PASSWORD`
   // environment variables. see the readme for more info
+  // 是否启用 redis 以缓存生成的预览图像（可选）
   isRedisEnabled: false,
 
+  // notion page ID 到 URL 路径的映射（可选）
   // map of notion page IDs to URL paths (optional)
   // any pages defined here will override their default URL paths
   // example:
@@ -48,16 +51,16 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  //navigationStyle: 'default'
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: '关于',
+      pageId: '9d9bb3c560474f24af2747e9cd2b8611'
+    },
+    {
+      title: '联系',
+      pageId: 'b52ba778ccc442b69af71b18ebe53d35'
+    }
+  ]
 })
