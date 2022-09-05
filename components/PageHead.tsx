@@ -79,6 +79,7 @@ export const PageHead: React.FC<
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
       <title>{title}</title>
+      <script async defer data-website-id="ef3c7e78-860c-4a65-aa72-73054842dcbf" src="https://umami.irithys.com/thymi.js"></script>
     </Head>
   )
 }
