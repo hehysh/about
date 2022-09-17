@@ -80,6 +80,7 @@ export const PageHead: React.FC<
       <meta name='twitter:title' content={title} />
       <title>{title}</title>
       <script defer data-domain="about.irithys.com" src="https://analytics.irithys.com/js/plausible.js"></script>
+      <script async defer data-website-id="ca338168-7d56-40c1-a747-2f1b39bab867" src="https://umami.irithys.com/ thymi.js"></script>
     </Head>
   )
 }
