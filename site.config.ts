@@ -2,22 +2,22 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '2a64db64810947188717133fa2643c9f',
+  rootNotionPageId: 'feb92043854b4e0cba7d9ebcf02ba7a9',
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
-  rootNotionSpaceId: 'thys',
+  // rootNotionSpaceId: 'thys',
 
   // basic site info (required)
-  name: '吕楪.',
+  name: '晴雀.',
   domain: 'about.irithys.com',
-  author: '吕楪',
+  author: '晴雀',
 
   // open graph metadata (optional)
-  description: '吕楪的个人网站',
+  description: '晴雀的个人网站',
 
   // social usernames (optional)
-  twitter: 'irithys',
-  github: 'irithys',
+  // twitter: 'irithys',
+  github: 'QingQueOfiicial',
   //linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -56,11 +56,11 @@ export default siteConfig({
   navigationLinks: [
     {
       title: '关于',
-      pageId: '9d9bb3c560474f24af2747e9cd2b8611'
+      pageId: '10db6af33c5a4cee811a88115ec1987c'
     },
     {
       title: '联系',
-      pageId: 'b52ba778ccc442b69af71b18ebe53d35'
+      pageId: 'c57081d00d6247a1947d0224f74bf48c'
     }
   ]
 })
